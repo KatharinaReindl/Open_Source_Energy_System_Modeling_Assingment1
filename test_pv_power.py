@@ -4,11 +4,11 @@ def test_area():
     assert area(4,5)==20
 
 def test_numbers():
-    assert numbers(area,3) == 6
+    assert numbers(20,3) == 6
 
-def tes_pv_power():
-    assert pv_power(numbers,400) == 2400
+def test_pv_power():
+    assert pv_power(6,400) == 2400
 
-def feed():
+def test_feed():
     assert feed(7,10) == 3
     assert feed(10,7) == 0        

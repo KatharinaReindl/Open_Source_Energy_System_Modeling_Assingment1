@@ -5,6 +5,7 @@ def test_area():
 
 def test_numbers():
     assert numberModuls(20,3) == 6
+    assert numberModuls(20.5,4) == 5
 
 def test_pv_power():
     assert pv_power(6,400) == 2400

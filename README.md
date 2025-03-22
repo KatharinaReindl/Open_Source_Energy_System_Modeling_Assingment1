@@ -1,2 +1,3 @@
-# Open_Source_Energy_System_Modeling_Assingment1
-Assiment to due a leture to get familiar with git, about XY
+#Assignment 1 - Open Source Energy System Modeling
+Assignment due to a lecture to get familiar with git, about XY
+

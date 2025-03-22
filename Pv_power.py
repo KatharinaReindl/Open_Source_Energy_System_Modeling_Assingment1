@@ -6,7 +6,7 @@ def area (a,b):
     return area
 
 #Calculation the number of moduls (size of one pv-module in m^2)
-def Numbers (area,m):
+def numberModuls (area,m):
     numbers = math.floor(area/m)
     return numbers
 

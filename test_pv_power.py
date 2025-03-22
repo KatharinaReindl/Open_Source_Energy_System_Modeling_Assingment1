@@ -1,10 +1,10 @@
-from Pv_power import area,numbers,pv_power,feed
+from Pv_power import area, numberModuls,pv_power,feed
 
 def test_area():
     assert area(4,5)==20
 
 def test_numbers():
-    assert numbers(20,3) == 6
+    assert numberModuls(20,3) == 6
 
 def test_pv_power():
     assert pv_power(6,400) == 2400

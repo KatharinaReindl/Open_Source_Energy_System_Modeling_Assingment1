@@ -16,6 +16,6 @@ def pv_power (numbers,powerModul):
     return power
 
 #Calculation of feed into the grid (example for one day)
-def feed(geneation,load):
-    feed = max(0, geneation - load)
+def feed(generation,load):
+    feed = max(0, generation - load)
     return feed

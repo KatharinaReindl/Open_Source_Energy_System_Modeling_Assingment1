@@ -10,5 +10,5 @@ def test_pv_power():
     assert pv_power(6,400) == 2400
 
 def test_feed():
-    assert feed(7,10) == 3
-    assert feed(10,7) == 0        
+    assert feed(7,10) == 0
+    assert feed(10,7) == 3        
